@@ -1,0 +1,11 @@
+* WebAuth I Recitation 
+  The absolute basics for performing authentication and storing user credentials
+  This does not correctly handle /authorization/.
+
+** MVP
+   Create an express application that registers users and stores there (hashed)
+   credentials in a database. Verify given credentials on login, and restrict an
+   endpoint by checking for credentials in the request headers (which is a very
+   bad way to handle this except for learning).
+
+** Build a React Application to test these endpoints
