@@ -1,0 +1,29 @@
+{
+  "name": "webauth-i-recitation",
+  "version": "1.0.0",
+  "description": "* WebAuth I Recitation    The absolute basics for performing authentication and storing user credentials   This does not correctly handle /authorization/.",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "knex": "^0.20.8",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeLorenzo/webauth-i-recitation.git"
+  },
+  "keywords": [],
+  "author": "Jose Medrano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoeLorenzo/webauth-i-recitation/issues"
+  },
+  "homepage": "https://github.com/JoeLorenzo/webauth-i-recitation#readme"
+}
